@@ -17,7 +17,7 @@ Code for the LSTM is provided in the notebook dlnd_tv_script_generation.ipynb. T
 3. Optimizer : Adam optimizer
 
 ### Usage
-To use the code, execute all the cells in CharRNN.ipynb and send the required arguments in generate function.
+To use the code, execute all the cells in dlnd_tv_script_generation.ipynb and send the required arguments in generate function.
 
       generate(trained_rnn, vocab_to_int[prime_word + ':'], int_to_vocab, token_dict, vocab_to_int[pad_word], gen_length)
 
